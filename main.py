@@ -1,10 +1,14 @@
+"""
+Simple neural network that checks if a given binary representation
+of a positive number is even
+"""
+
+
 import numpy as np
 
-
 class SimpleNeuralNetwork:
-    """
-    Simple neural network that checks if a given binary representation of a positive number is even
-    """
+
+
 
     def __init__(self):
         np.random.seed(1)
@@ -62,4 +66,3 @@ if __name__ == '__main__':
         print(f"Result for {data} is:")
         print(network.propagation(data))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
